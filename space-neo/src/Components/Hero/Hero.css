@@ -95,6 +95,9 @@
     text-transform: uppercase;
     cursor: pointer;
     transition: 0.3s ease;
+
+    display: block;      /* ← ensure it's treated like a block */
+    margin-left: 20px;     /* ← this centers it horizontally */
 }
 
 .cta:hover {
