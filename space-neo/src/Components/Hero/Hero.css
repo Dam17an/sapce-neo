@@ -1,0 +1,143 @@
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Overlay layer */
+/* Top navigation bar */
+.hero-nav {
+    backdrop-filter: blur(12px);  /* Keep the blur */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+/* Smaller logo */
+.logo {
+    height: 20px;
+}
+
+/* Navigation links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+}
+
+/* Mobile hamburger menu */
+.hamburger {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+}
+
+/* Center wrapper for hero content */
+.hero-center {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;  /* Align to the left */
+    align-items: center;
+    padding-left: 5rem;
+}
+
+/* Hero text block */
+.hero-content {
+    text-align: left;
+    max-width: 600px;
+    padding: 0 1rem;
+    padding-top: 7rem;
+}
+
+/* Subtitle */
+.subtitle {
+    letter-spacing: 2px;
+    font-size: 65px;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+/* Main title */
+.title {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+/* Mission info text */
+.underwrite-line {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 1rem 0 1.5rem 0;
+    color: white;
+    text-decoration: underline;
+}
+
+/* Watch the replay button */
+.cta {
+    padding: 0.9rem 2rem;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.cta:hover {
+    background: white;
+    color: black;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hero-nav {
+        padding: 1rem;
+    }
+
+    .hero-center {
+        justify-content: left;
+        padding-left: 0;
+    }
+
+    .hero-content {
+        text-align: left;
+    }
+
+    .title {
+        font-size: 5rem;
+    }
+
+    .subtitle {
+        font-size: 5rem;
+    }
+
+    .underwrite-line {
+        font-size: 0.9rem;
+    }
+
+    .cta {
+        font-size: 1.4rem;
+    }
+}
