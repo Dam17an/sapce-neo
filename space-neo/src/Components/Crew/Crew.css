@@ -1,5 +1,5 @@
 .crew-content {
-    background-image: url('./rocket-bg2.png'); /* This is the key line */
+    background-image: url('./rocket-bg2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

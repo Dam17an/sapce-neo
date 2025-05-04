@@ -1,58 +1,58 @@
 .launch-section {
     background-color: black;
     padding: 80px;
-    height: 100vh; /* Full viewport height */
+    height: 100vh;
     position: relative;
     box-sizing: border-box;
 }
 
-/* LAUNCH text in the background, centered */
+
 .launch-text {
     position: absolute;
-    top: 50%; /* Vertically center */
-    left: 50%; /* Horizontally center */
-    transform: translate(-50%, -50%); /* Offset by 50% of its own dimensions */
-    font-size: 22vw; /* Responsive text size */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22vw;
     color: white;
-    opacity: 0.2; /* Light opacity for background effect */
+    opacity: 0.2;
     font-weight: bold;
     z-index: 1;
     text-align: center;
-    pointer-events: none; /* Prevent interaction with background text */
+    pointer-events: none;
 }
 
-/* Main content container */
+
 .launch-inner {
     position: relative;
     width: 100%;
-    height: 100%; /* Full section height */
+    height: 100%;
     background: url('./rocket-bg3.png') center center no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: flex-end; /* Align content to the right */
-    align-items: flex-start; /* Align content to the top */
+    justify-content: flex-end;
+    align-items: flex-start;
     overflow: hidden;
 }
 
-/* Content container for text and button */
+
 .launch-content {
     position: relative;
-    z-index: 2; /* Ensure content is on top of background */
-    background-color: rgba(60, 100, 160, 0.6); /* Semi-transparent background */
+    z-index: 2;
+    background-color: rgba(60, 100, 160, 0.6);
     padding: 40px 50px;
     width: 500px;
     color: white;
-    min-height: 300px; /* Minimum height for container */
-    height: auto; /* Allow container to grow based on content */
+    min-height: 300px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align content to the top */
-    overflow: visible; /* Prevent content from clipping */
+    justify-content: flex-start;
+    overflow: visible;
     margin-top: 40px;
     margin-right: 40px;
 }
 
-/* Prevent text from being truncated */
+
 .launch-content {
     overflow: visible;
     height: auto;

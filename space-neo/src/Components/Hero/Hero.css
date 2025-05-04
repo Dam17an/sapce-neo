@@ -7,17 +7,16 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Overlay layer */
 /* Top navigation bar */
 .hero-nav {
-    backdrop-filter: blur(12px);  /* Keep the blur */
+    backdrop-filter: blur(12px);
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 2;
 }
-/* Smaller logo */
+
 .logo {
     height: 20px;
 }
@@ -41,16 +40,16 @@
     color: white;
 }
 
-/* Center wrapper for hero content */
+
 .hero-center {
     flex: 1;
     display: flex;
-    justify-content: flex-start;  /* Align to the left */
+    justify-content: flex-start;
     align-items: center;
     padding-left: 5rem;
 }
 
-/* Hero text block */
+
 .hero-content {
     text-align: left;
     max-width: 600px;
@@ -58,7 +57,7 @@
     padding-top: 7rem;
 }
 
-/* Subtitle */
+
 .subtitle {
     letter-spacing: 2px;
     font-size: 65px;
@@ -66,7 +65,7 @@
     color: white;
 }
 
-/* Main title */
+
 .title {
     font-size: 4rem;
     font-weight: 900;
@@ -75,7 +74,7 @@
     color: white;
 }
 
-/* Mission info text */
+
 .underwrite-line {
     font-size: 1rem;
     text-transform: uppercase;
@@ -96,8 +95,8 @@
     cursor: pointer;
     transition: 0.3s ease;
 
-    display: block;      /* ← ensure it's treated like a block */
-    margin-left: 20px;     /* ← this centers it horizontally */
+    display: block;
+    margin-left: 20px;
 }
 
 .cta:hover {
@@ -105,7 +104,7 @@
     color: black;
 }
 
-/* Responsive layout */
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
