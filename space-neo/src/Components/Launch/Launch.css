@@ -59,14 +59,14 @@
     width: 25rem;
 }
 
-/* Heading styling */
+
 .launch-heading {
     font-size: 55px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-/* Paragraph styling */
+
 .launch-paragraph {
     font-size: 20px;
     line-height: 1.6;
@@ -75,7 +75,7 @@
     word-break: break-word;
 }
 
-/* Button styling */
+
 .launch-button {
     padding: 30px 85px;
     border: 3.5px solid white;
@@ -90,7 +90,7 @@
 
 }
 
-/* Button hover effect */
+
 .launch-button:hover {
     background-color: white;
     color: #1e3a5f;
@@ -106,7 +106,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        height: auto;
         background-position: center center;
     }
     .launch-heading {

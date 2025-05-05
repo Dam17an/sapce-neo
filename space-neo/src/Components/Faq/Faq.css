@@ -1,0 +1,50 @@
+.faq-container {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+.faq-wrapper {
+    width: 1200px;
+    margin-left: 310px;
+    padding: 0 20px;
+}
+
+.moon-phases {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 40px auto;
+}
+
+.faq-title {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.faq-section {
+    margin-bottom: 40px;
+}
+
+.faq-section h2 {
+    font-size: 1.6rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.faq-section p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #ccc;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 768px) {
+    .faq-wrapper {
+        margin-left: 30px;
+        width: 80%;
+    }
+}
